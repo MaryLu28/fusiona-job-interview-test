@@ -5,20 +5,35 @@
     <meta charset="utf-8">
     <title>Home Page</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
-</head>
+    </head>
 
 <body>
-    <h1>Smooth Scroll</h1>
+    <div class="header">
+        <h1>Fusiona Test</h1>
+    </div>
 
-    <div class="main" id="section1">
+    <div class="navbar-space">
+        <div id="navbar"> 
+            <a onclick="setURL();" href=" #id1 " class="navbar-item active"> VPN Satelitales </a> 
+            <a href=" #id2 " class="navbar-item"> IsatPhone Pro </a>
+            <a href=" #id3 " class="navbar-item"> BGAN </a> 
+        </div>
+    </div>
+
+
+    <div class="section" id="id1">
         <h2>Section 1</h2>
-        <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
     </div>
 
-    <div class="main" id="section2">
+    <div class="section" id="id2">
         <h2>Section 2</h2>
-        <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
     </div>
+
+    <div class="section" id="id3">
+        <h2>Section 3</h2>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

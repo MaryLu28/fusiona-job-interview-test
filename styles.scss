@@ -43,6 +43,7 @@ body {
   font-family: "Roboto_light", Arial, Helvetica, Geneva, sans-serif;
   font-size: 13px;
   text-decoration: none;
+  
 }
 
 .navbar-item:hover {
@@ -52,7 +53,7 @@ body {
 .navbar-item.active {
   font-family: "Roboto_bold", Arial, Helvetica, Geneva, sans-serif;
   background-color: #5c9bfa;
-  color: white;
+  color: white
 }
 
 .navbar-item.active::after {
@@ -68,7 +69,7 @@ body {
 }
 
 .section {
-  padding-top: 50px;
+  padding-top: 50px; 
   padding-left: 50px;
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 #id2 {
-  height: 600px;
+height: 600px;
   background-color: cyan;
 }
 
@@ -86,5 +87,3 @@ body {
   height: 600px;
   background-color: purple;
 }
-
-/*# sourceMappingURL=styles.css.map */

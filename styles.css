@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 500px;
+  background-color: blueviolet;
+}
+
+#section2 {
+  height: 500px;
+  background-color: cyan;
+}

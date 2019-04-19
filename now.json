@@ -6,6 +6,10 @@
     {
       "src": "*.css",
       "use": "@now/static"
+    },
+    {
+      "src": "main.css",
+      "use": "@now/node"
     }
   ]
 }
